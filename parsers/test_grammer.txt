@@ -1,0 +1,4 @@
+
+S :- COMMAND filename
+COMMAND :- "open" | "search"
+filename :- var(filename)
